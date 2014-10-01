@@ -3,10 +3,11 @@
 (function () {
     'use strict';
 
-    describe('Give it some context', function () {
-        describe('maybe a bit more context here', function () {
-            it('should run here few assertions', function () {
+    describe('Are these things present?', function () {
+        describe('These elements should exist', function () {
 
+            it('should have an array', function () {
+              expect('an "list" array to be present').to.exist;
             });
         });
     });
